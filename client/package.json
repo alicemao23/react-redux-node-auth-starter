@@ -37,7 +37,8 @@
     "redux-thunk": "^2.2.0",
     "rrc": "^0.10.1",
     "svg-icon": "^0.8.2",
-    "universal-cookie": "^2.1.2"
+    "universal-cookie": "^2.1.2",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,7 +47,9 @@
     "coverage": "npm run test; open file:///$PWD/coverage/lcov-report/index.html",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
     "lint": "./node_modules/.bin/eslint . --fix",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
@@ -70,5 +73,6 @@
     "svg-icon": "^0.8.2",
     "unexpected": "^10.35.0",
     "unexpected-react": "^5.0.0"
-  }
+  },
+  "snyk": true
 }
