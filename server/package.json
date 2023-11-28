@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/bhavin-prajapati/react-redux-node-auth-starter",
   "dependencies": {
-    "bcrypt": "^1.0.2",
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
@@ -29,8 +29,8 @@
     "mysql2": "^1.5.2",
     "sequelize": "^4.35.5",
     "sequelize-cli": "^4.0.0",
-    "url-parse": "^1.2.0",
-    "nodemon": "^1.10.0"
+    "url-parse": "^1.4.0",
+    "nodemon": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
